@@ -10,3 +10,61 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+header {
+  margin-top: 96px;
+  border-bottom: 8px solid #999;
+  padding-bottom: 64px;
+}
+
+.intro-chunk {
+  padding-inline: 24px;
+  max-width: 25rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+strong {
+  font-weight: 800;
+  color: #009966;
+}
+
+main {
+  background-color: #666;
+  padding-top: 64px;
+  padding-bottom: 72px;
+}
+
+.card {
+  background-color: white;
+  border-bottom: 8px solid #999;
+  padding-inline: 24px;
+  padding-bottom: 24px;
+  padding-top: 8px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding-inline: 32px;
+  padding-block: 16px;
+  background-color: #ffbf00;
+  width: fit-content;
+  border-bottom: 8px solid #c90;
+  margin: 0;
+  margin-left: -40px;
+}
